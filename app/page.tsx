@@ -9,7 +9,7 @@ export default function Page() {
   const [result, setResult] = useState<any>(null);
   const [statusText, setStatusText] = useState('正在处理，请稍候...');
 
-  const BACKEND_URL = "https://onrender.com";
+  const BACKEND_URL = "https://pipe-calculator-backend0412.onrender.com";
 
   // 1. 支付处理逻辑
   const handlePay = async () => {
